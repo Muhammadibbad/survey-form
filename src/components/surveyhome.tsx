@@ -10,7 +10,7 @@ const Surveyhome = () => {
   return (
     <div className='flex flex-col justify-center  items-center'  >
         <div className="w-[100%]">
-      <div className="h-screen w-[100%] ">
+      <div className="h-screen  ">
         <Image src={CoverImg} alt="Cover Image" layout="fill"  />
       </div>
     </div>
