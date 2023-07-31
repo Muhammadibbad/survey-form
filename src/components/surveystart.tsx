@@ -1,20 +1,15 @@
 import React from 'react'
-import { useRouter } from 'next/router'
-import Link from 'next/link'
 import Image from 'next/image'
 import CoverImg from "../../public/pexels-mat-brown-899330 1.png"
 import GotoSurvey from "../../public/Group 1.png"
+import Link from 'next/link'
 
-const Surveyhome = () => {
-  //  make
+
+const Surveystart = () => {
   return (
-    <div className='flex flex-col justify-center  items-center'  >
-        <div className="w-[100%]">
-      <div className="h-screen  ">
-        <Image src={CoverImg} alt="Cover Image" layout="fill"  />
-      </div>
-    </div>
-           <div className='absolute xl:w-[40%] ssm:w-[70%] sm:w-[70%] md:w-[70%] lg:w-[60%]  backdrop-blur-2xl   bg-opacity-10 bg-white rounded-3xl flex flex-col items-center justify-center  h-[60%]'> 
+    
+    
+     <div className='absolute xl:w-[40%] ssm:w-[70%] sm:w-[70%] md:w-[70%] lg:w-[60%]  backdrop-blur-2xl   bg-opacity-10 bg-white rounded-3xl flex flex-col items-center justify-center  h-[60%]'> 
            <div className= ' w-[90%] space-y-4  flex flex-col items-center justify-center'>
           <div className=' '><Image src={GotoSurvey} alt='Logo is Missing'></Image></div>
           <div className='text-[25px] text-white '><h2>Take the Survey</h2></div>
@@ -25,12 +20,9 @@ const Surveyhome = () => {
           </div>
            </div>
         
-        
-        
-        
-        
-        </div>
+
+    
   )
 }
 
-export default Surveyhome
+export default Surveystart
