@@ -7,7 +7,7 @@ import storage from 'redux-persist/lib/storage'
 import { persistReducer } from 'redux-persist'
 import { combineReducers } from "@reduxjs/toolkit";
 import { getDefaultMiddleware } from '@reduxjs/toolkit';
-import profileReducer from './feature/userSlice'
+import surveyReducer from './feature/surveySlice'
 
 
 
@@ -18,7 +18,7 @@ const persistConfig={
 }
 
 const reducer=combineReducers({
-    user:profileReducer,
+    user:surveyReducer,
     
 })
 

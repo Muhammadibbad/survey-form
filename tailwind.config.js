@@ -18,6 +18,7 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+          'cover-image': "url('../../public/pexels-mat-brown-899330 1.png')",
       },
     },
   },
